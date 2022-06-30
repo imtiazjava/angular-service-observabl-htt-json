@@ -1,0 +1,11 @@
+
+<div>
+            <h2>LOGIN APPLICATION</h2>
+            <form>
+                 USERNAME:<input type="text" [(ngModel)]="uname" name="uname"/><br/>
+                 PASSWORD:<input type="password" [(ngModel)]="pwd" name="pwd"/><br/>
+                    <input type="submit" value="LOGIN" (click)="loginValidation()">
+                 
+            </form>
+                {{statusMessage}}
+</div>
